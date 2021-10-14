@@ -1,0 +1,6 @@
+db.sqlite3
+hlsvr/local_settings.py
+*.pyc
+*.pyo
+*.swp
+.DS_Store
