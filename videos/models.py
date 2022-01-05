@@ -19,5 +19,8 @@ class Video(models.Model):
     def __str__(self):
         return self.title
 
+    def get_source(self):
+        return "http://vr.cncn.win/hls/" + self.slug
+
     def get_url(self):
-        return "http://vt.cncn.win/hls/" + self.slug
+        return "/videos/{}/".format(self.pk)

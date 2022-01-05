@@ -11642,3 +11642,11 @@ footer a:hover, footer a:active, footer a:focus {
 
 .mainplayer {
 }
+
+
+.listhead {
+  background-color: #f8f9fa;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+  min-height: 30rem;
+}
